@@ -47,7 +47,7 @@ a{
     width: 200px;
 }
 
-.logo-doceria{
+.logo{
     width: 200px;
     height:auto;
     display:block;
@@ -130,19 +130,19 @@ h1{
 }
 
 
-/*  galerias */
-#sessao-objeto{
+/*  sessão tabela */
+.sessao-objeto{
     padding-right: 50px;
     padding-bottom: 50px;
 }
 
-/* Contato */
+/* Cadastro*/
 
-#form-contato{
+.formCadastro{
     width: 500px;
 }
 
-#form-contato input[type=text], #form-contato input[type=number], #form-contato textarea{
+.formCadastro input[type=text], .formCadastro input[type=number], .formCadastro textarea{
     display: block;
     border: 1px solid #000000;
     padding:10px;
@@ -154,19 +154,19 @@ h1{
 }
 
 
-#form-contato input[type=text]:focus, #form-contato input[type=number]:focus, #form-contato textarea:focus {
+.form-cadastro input[type=text]:focus, .formCadastro input[type=number]:focus, .formCadastro textarea:focus {
     border-color: #151515;
 }
 
-#form-contato textarea{
+.formCadastro textarea{
     height:150px;
 }
 
-#form-contato ::placeholder{
+.formCadastro ::placeholder{
     color: #000000;
 }
 
-#form-contato input[type=submit]{
+.formCadastro input[type=submit]{
     margin-left: 0;
     font-size: 16px;
     width:180px;
@@ -194,22 +194,22 @@ footer p{
 
 /* Table Styles */
 
-#objeto {
+   .objeto {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
   
-  #objeto td, #objeto th {
+  .objeto td, .objeto th {
     border: 1px solid #ddd;
     padding: 8px;
   }
   
-  #objeto tr:nth-child(even){background-color: #ffffff;}
+  .objeto tr:nth-child(even){background-color: #ffffff;}
   
-  #objeto tr:hover {background-color: #f3f3f3;}
+  .objeto tr:hover {background-color: #f3f3f3;}
   
-  #objeto th {
+  .objeto th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;

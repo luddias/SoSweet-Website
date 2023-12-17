@@ -25,8 +25,8 @@
                 <nav>
                     <ul>
                         <li><a href="pagEpicos.html">Epicos</a></li>
-                        <li><a href="pagTipoEpicos.html">Tipo Épico</a></li>
-                        <li><a href="pagTarefas.html">- Tarefas</a></li>
+                        <li><a href="pagTipoEpicos.html">- Tipo Épico</a></li>
+                        <li><a href="pagTarefas.html">Tarefas</a></li>
                         <li><a href="pagTipoTarefas.html">Tipo Tarefa</a></li>
                         <li><a href="pagHU.html">Histórias de Usuário</a></li>
                         <li><a href="pagTipoHU.html">Tipo HU</a></li>
@@ -37,7 +37,7 @@
         <div class="content">
             <main>
                 <div class="sessao-bemvindo-content">
-                    <h1>Tarefas</h1>
+                    <h1>Tipo Épico</h1>
                 </div>
                 <div class="botoes-crud">
                     <button class="criar" ><img src="img/plus.png" alt="add"><a href="#sessao-objeto"></a></button>
@@ -45,33 +45,25 @@
                     <button class="editar"><img src="img/edit.png" alt="edit"></button>
 
                 </div>
-                <section class="sessao-objeto" id="sessaoTarefa">
-                    <table class="objeto" id="tabelaTarefa">
+                <section class="sessao-objeto" id="sessaoTipoEpicos">
+                    <table class="objeto" id="tabelaTipoEpicos">
                         <tr>
                           <th>id</th>
-                          <th>Titulo</th>
-                          <th>Tipo</th>
-                          <th>US</th>
+                          <th>Nome</th>
                           <th>Descrição</th>
 
                         </tr>
                         <tr>
                           <td>1</td>
-                          <td>Tarefa1</td>
-                          <td>2</td>
-                          <td>2</td>
-                          <td>Descrição da tarefa</td>
-
-
+                          <td>tipo1</td>
+                          <td>Descrição do tipo épico</td>
                         </tr>
                       </table>
                 </section>
-                <section id="cadTarefa" class="sessaoCadastro">
-                    <h2>Cadastrar Tarefa</h2>
-                    <form id="formTarefa" class="formCadastro">
-                        <input type="text" name="titulo" placeholder="Titulo">
-                        <input type="number" name="HU" placeholder="HU">
-                        <input type="number" name="tipo" placeholder="Tipo">
+                <section id="cadTipoEpicos" class="sessaoCadastro">
+                    <h2>Cadastrar Tipo Épico</h2>
+                    <form id="formTipoEpicos" class="formCadastro">
+                        <input type="text" name="nome" placeholder="Nome">
                         <textarea name="descricao" placeholder="Escreva a Descrição"></textarea>
                         <input type="submit" value="Enviar">
                     </form>
